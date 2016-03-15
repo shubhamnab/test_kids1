@@ -1,0 +1,29 @@
+<ion-view view-title="Kids Tutor" style="background-color:">
+<ion-content class='header-background has-header padding scrolling' scroll='false'>
+     <div class="list card" style="height:auto">
+ <div class="item item-image" style="background-color:#EF473A">
+    <h1 style="font-family:'cursive'">{{demo}}</h1>
+  </div>
+        
+  <div class="item item-image">
+    <img src="img/{{message}}/{{touchPageData}}" class="fullscreen-image" > 
+        </div>
+
+ <div class="item item-image" style="background-color:#EF473A">
+    <h2 style="font-family:'cursive'">Touch to Write</h2>
+  </div>
+ 
+ <div id="canvasDiv" class="canvasDivClass"  style="background-color:#F0FFF0;height:100%;border:5px orange" >
+          <canvas id='signatureCanvas' class="canvasClass" style="border:15px">
+                </canvas>
+          
+                </div>
+         <div class='button-bar' id="buttonDiv">
+              <a class='button icon-left ion-chevron-left button-clear' ng-click='previousCanvas()'></a>
+              <a class='button button-assertive icon-right ion-ios-close-outline' ng-click='clearCanvas()'>Clear</a>
+             <!-- <a class='button button-balanced icon-right ion-android-volume-up' ng-click='soundCanvas()'>Sound</a>-->
+              <a class='button icon-right ion-chevron-right button-clear' ng-click='nextCanvas()'></a>
+          </div>
+</div> 
+</ion-content>
+</ion-view>

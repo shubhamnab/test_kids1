@@ -1,0 +1,17 @@
+<ion-view view-title="Kids Tutor">
+  <ion-content>
+    <ul class="cate-lv1">
+            <li>
+            <a class="item-background cate-lv1-item" ng-repeat="category in categories" href="#/app/listing/{{category.id}}"
+            style="background: url(img/category/{{category.img}}) no-repeat; background-size: cover;">
+                <div class="item-wrapper">
+                    <h2>{{category.title}}</h2>
+                   
+                </div>
+            </a>
+            </li>
+        </ul>
+  </ion-content>
+</ion-view>
+
+

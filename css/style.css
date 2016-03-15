@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+.scrolling {
+    overflow: scroll;
+}
+.canvasDivClass {
+    width: 100%;
+    height: 100%;
+    /*position: relative;*/
+}
+.canvasClass{
+    border: 1px solid black;
+}
